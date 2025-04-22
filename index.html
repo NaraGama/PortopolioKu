@@ -1,65 +1,312 @@
 <!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Coming Soon - Ajiro Maora</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-    }
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>PortopoliKu</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="PortopoliKu" name="keywords">
+        <meta content="PortopoliKu" name="description">
 
-    body {
-      height: 100vh;
-      background: linear-gradient(135deg, #f0f8f7, #f8f285);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      color: #333;
-      padding: 20px;
-    }
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
 
-    .container {
-      background: rgba(255, 255, 255, 0.8);
-      padding: 40px 30px;
-      border-radius: 20px;
-      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
-    }
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:300;400;600;700;800&display=swap" rel="stylesheet">
 
-    h1 {
-      font-size: 3rem;
-      margin-bottom: 20px;
-      color: #333;
-    }
+        <!-- CSS Libraries -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Font Awesome 6.4 -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="lib/slick/slick-theme.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-    p {
-      font-size: 1.2rem;
-      margin-bottom: 30px;
-    }
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
 
-    .btn {
-      padding: 12px 25px;
-      background-color: #333;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 30px;
-      transition: background 0.3s;
-    }
+    <body data-spy="scroll" data-target=".navbar" data-offset="51">
+        <div class="wrapper">
+            <div class="sidebar">
+                <div class="sidebar-header">
+                </div>
+                <div class="sidebar-content">
+                    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                        <a href="#" class="navbar-brand">Navigation</a>
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarCollapse">
+                            <ul class="nav navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#header">Home<i class="fa fa-home"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#about">About Me<i class="fa fa-address-card"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#experience">Experience<i class="fa fa-star"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#portfolio">Portfolio<i class="fa fa-file-archive"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact">Contact Me<i class="fa fa-envelope"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="sidebar-footer">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="content">
+                <!-- Header Start -->
+                <div class="header" id="header">
+                    <div class="content-inner">
+                        <p>Let me introduce myself</p>
+                        <h1>Ajiro Maora (アジロ マオラ)</h1>
+                        <h2></h2>
+                        <div class="typed-text">Web Designer, Web Developer, Front End Developer, Graphic Designer</div>
+                    </div>
+                </div>
+                <!-- Header End -->
+                
+                <!-- Large Button Start -->
+                <div class="large-btn">
+                    <div class="content-inner">
+                        <a class="btn" href="#"><i class="fa fa-download"></i>Resume</a>
+                        <a class="btn" href="#"><i class="fa fa-download"></i>CV</a>
+                        <div style="text-align: center;">
+                            <a class="btn" href="#" style="display: inline-block;">
+                                <i class="fa fa-hands-helping" style="margin-right: 5px;"></i> Apply Me
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Large Button End -->
+                
+                <!-- About Start -->
+                <div class="about" id="about">
+                    <div class="content-inner">
+                        <div class="content-header">
+                            <h2>About Me</h2>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-6 col-lg-5">
+                                <p>
+                                    Hello! I'm Ajiro Maora (アジロ マオラ), a Bachelor's degree student in Computer Science, focusing on Software Engineering (RPL). My main interest lies in web development, both on the front-end and back-end sides.
 
-    .btn:hover {
-      background-color: #555;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>Coming Soon</h1>
-    <p>Website portfolio Ajiro Maora (アジロ マオラ) sedang dalam pengembangan.</p>
-    <a href="#" class="btn">Kembali ke Beranda</a>
-  </div>
-</body>
+                                    During my studies, I have been actively deepening my knowledge of various web technologies and working on various projects
+                                </p>
+                            </div>
+                            <div class="col-md-6 col-lg-7">
+                                <p>
+                                    related to web-based applications. For me, a website should not only be visually appealing, but also strong, fast, and user-friendly.
+
+                                    I am proficient in technologies such as HTML, CSS, JavaScript, PHP, as well as modern frameworks. I am also familiar with concepts like MVC, database management, and API integration. I believe that learning is a never-ending process, and I am always excited to explore new things in the tech world.
+
+                                    I am ready to contribute by creating innovative and impactful digital solutions.
+                                    Let's create together!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- About End -->
+                
+                <!-- Education Start -->
+                <div class="education" id="education">
+                    <div class="content-inner">
+                        <div class="content-header">
+                            <h2>Education</h2>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="edu-col">
+                                    <span>2022 <i>to</i> Present</span>
+                                    <h3>Universitas Muhammadiyah Karanganyar</h3>
+                                    <p>Currently studying at Universitas Muhammadiyah Karanganyar with a major in Computer Science (S1 Informatics).</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="edu-col">
+                                    <span>2019 <i>to</i> 2022</span>
+                                    <h3>Madrasah Aliyah Negeri 1 Karanganyar</h3>
+                                    <p>Studied at MAN 1 Karanganyar with a major in Multimedia.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="edu-col">
+                                    <span>2016 <i>to</i> 2019</span>
+                                    <h3>SMP Darul Arqom Karanganyar</h3>
+                                    <p>Studied at SMP DA Karanganyar.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="edu-col">
+                                    <span>2010 <i>to</i> 2016</span>
+                                    <h3>SDIT Jumapolo</h3>
+                                    <p>Lorem ipsum dolor sit amet elit suscipit orci. Donec molestie velit id libero.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Education End -->
+                <!-- Experience Start -->
+                <div class="experience" id="experience">
+                    <div class="content-inner">
+                        <div class="content-header">
+                            <h2>Experience</h2>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="exp-col">
+                                    <span>01-Jan-2020 <i>to</i> 31-Dec-2050</span>
+                                    <h3>Disdukcapil</h3>
+                                    <h4>Karanganyar</h4>
+                                    <h5>Application Development</h5>
+                                    <p>Developed a Data Registration System using PHP and PhpDesktop.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="exp-col">
+                                    <span>01-Jan-2020 <i>to</i> 31-Dec-2050</span>
+                                    <h3>UMUKA</h3>
+                                    <h4>Karanganyar</h4>
+                                    <h5>Web Design</h5>
+                                    <p>Developed a Campus Program Website using WordPress.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Experience End -->
+                <!-- Portfolio Start -->
+                <div class="portfolio" id="portfolio">
+                    <div class="content-inner">
+                        <div class="content-header">
+                            <h2>Portfolio</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <ul id="portfolio-flters">
+                                    <li data-filter="*" class="filter-active">All</li>
+                                    <li data-filter=".web-des">Design</li>
+                                    <li data-filter=".web-dev">Development</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row portfolio-container">
+                            <div class="col-lg-4 col-md-6 portfolio-item web-des">
+                                <div class="portfolio-wrap">
+                                    <figure>
+                                        <img src="img/portfolio-1.jpg" class="img-fluid" alt="">
+                                        <a href="img/portfolio-1.jpg" data-lightbox="portfolio" data-title="Project Name" class="link-preview" title="Preview"><i class="fa fa-eye"></i></a>
+                                        <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
+                                        <a class="portfolio-title" href="#">WordPress Design <span>Web Design</span></a>
+                                    </figure>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item web-des">
+                                <div class="portfolio-wrap">
+                                    <figure>
+                                        <img src="img/portfolio-2.jpg" class="img-fluid" alt="">
+                                        <a href="img/portfolio-2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Project Name" title="Preview"><i class="fa fa-eye"></i></a>
+                                        <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
+                                        <a class="portfolio-title" href="#">WordPress Design <span>Web Design</span></a>
+                                    </figure>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item web-dev">
+                                <div class="portfolio-wrap">
+                                    <figure>
+                                        <img src="img/portfolio-3.jpg" class="img-fluid" alt="">
+                                        <a href="img/portfolio-3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Project Name" title="Preview"><i class="fa fa-eye"></i></a>
+                                        <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
+                                        <a class="portfolio-title" href="#">Data Registration System Development <span>Web Development</span></a>
+                                    </figure>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 portfolio-item web-dev">
+                                <div class="portfolio-wrap">
+                                    <figure>
+                                        <img src="img/portfolio-4.jpg" class="img-fluid" alt="">
+                                        <a href="img/portfolio-4.jpg" class="link-preview" data-lightbox="portfolio" data-title="Project Name" title="Preview"><i class="fa fa-eye"></i></a>
+                                        <a href="#" class="link-details" title="More Details"><i class="fa fa-link"></i></a>
+                                        <a class="portfolio-title" href="#">Game Website Development <span>Web Development</span></a>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio End -->
+                <!-- Contact Start -->
+                <div class="contact" id="contact">
+                    <div class="content-inner">
+                        <div class="content-header">
+                            <h2>Contact</h2>
+                        </div>
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="contact-info">
+                                    <p><i class="fa fa-user"></i>Ajiro Maora (アジロ マオラ)</p>
+                                    <p><i class="fa fa-tag"></i>Web Designer & Developer</p>
+                                    <p><i class="fa fa-envelope"></i><a href="mailto:ajiromaorajp@gmail.com">ajiromaorajp@gmail.com</a></p>
+                                    <p><i class="fa fa-phone"></i><a href="tel:+1234567890">+62 81809361271</a></p>
+                                    <p><i class="fa fa-map-marker"></i>Jumapolo, Karanganyar, Indonesia</p>
+                                    <div class="social">
+                                        <a class="btn" href=""><i class="fab fa-twitter"></i></a>
+                                        <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
+                                        <a class="btn" href=""><i class="fab fa-instagram"></i></a>
+                                        <a class="btn" href=""><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact End -->
+                <!-- Footer Start -->
+                <div class="footer">
+                    <div class="content-inner">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <p>&copy; Copyright <a href="#"> Ajiro Maora (アジロ マオラ)</a>. All Rights Reserved</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Powered by <a href="#">Ajiro Maora (アジロ マオラ)</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer Start -->
+            </div>
+        </div>
+        
+        <!-- Back to Top -->
+        <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+        <script src="lib/typed/typed.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
 </html>
